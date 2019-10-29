@@ -1,0 +1,81 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar .nav-link {
+  color: white;
+  font-size: 20px;
+  margin-right: 35px;
+}
+
+.conversation {
+  position: absolute;
+  width: 1318px;
+  height: 214px;
+  left: 301px;
+  top: 110px;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.explanation {
+  position: absolute;
+  width: 1393px;
+  height: 214px;
+  left: 263px;
+  top: 320px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.explanation .startlistening {
+  margin-top: 60px;
+  padding: 10px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.wave_bot {
+  position: absolute;
+  width: 1920px;
+  height: 838.42px;
+  left: -15px;
+  top: 237px;
+}
+
+.wave_mid {
+  position: absolute;
+  width: 1920px;
+  height: 838.42px;
+  left: 0px;
+  top: 241.58px;
+}
+
+.wave_top {
+  position: absolute;
+  width: 1920px;
+  height: 838.42px;
+  top: 258px;
+}
+
+body {
+  background-color: #274a60;
+  overflow: hidden;
+}
+/*# sourceMappingURL=landing.css.map */
