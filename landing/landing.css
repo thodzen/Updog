@@ -8,6 +8,12 @@
   margin-right: 35px;
 }
 
+.navbar .breakline {
+  color: #ffffff;
+  padding-right: 20px;
+  cursor: context-menu;
+}
+
 .conversation {
   position: absolute;
   width: 1318px;
