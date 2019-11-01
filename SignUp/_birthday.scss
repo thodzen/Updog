@@ -1,17 +1,24 @@
-.birthday{
-    margin:10px;
-    padding-top: 10px;
-    margin-bottom: -10px;
-    .month{
-    }
-    .day{
-        
-    }
-    .year{
-    }
+.birthday {
+  margin: 10px;
+  padding-top: 10px;
+  margin-bottom: -10px;
+  .month {
+    float: none;
+    //margin-right: auto;
+    margin-left: auto;
+  }
+  .day {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .year {
+    float: none;
+    margin-right: auto;
+    //margin-left: auto;
+  }
 }
-.dob-text
-{
-    color:black;
-    font-size: 18px;
+.dob-text {
+  color: black;
+  font-size: 18px;
 }

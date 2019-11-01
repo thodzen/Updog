@@ -42,19 +42,26 @@
   color: #ffffff;
 }
 
-.explanation .startlistening {
+.startlistening {
   margin-top: 60px;
   padding: 10px;
-  background: #D200CC;
-  border-color: #D200CC;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  background: #752565;
+  border-color: #752565;
   border-radius: 20px;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   color: #fff;
+}
+
+.startlistening :hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
 }
 
 .wave_bot {
@@ -104,6 +111,10 @@
   }
   40% {
     opacity: 1;
+    margin-top: 20px;
+  }
+  99% {
+    opacity: 0.7;
   }
   100% {
     opacity: 0.6;
@@ -116,6 +127,10 @@
   }
   40% {
     opacity: 1;
+    margin-top: 20px;
+  }
+  99% {
+    opacity: 0.7;
   }
   100% {
     opacity: 0.6;
@@ -128,6 +143,10 @@
   }
   50% {
     opacity: 1;
+    margin-top: 20px;
+  }
+  99% {
+    opacity: 0.7;
   }
   100% {
     opacity: 0.6;
@@ -140,6 +159,10 @@
   }
   50% {
     opacity: 1;
+    margin-top: 20px;
+  }
+  99% {
+    opacity: 0.7;
   }
   100% {
     opacity: 0.6;
@@ -152,6 +175,10 @@
   }
   60% {
     opacity: 1;
+    margin-top: 20px;
+  }
+  99% {
+    opacity: 0.7;
   }
   100% {
     opacity: 0.6;
@@ -164,6 +191,10 @@
   }
   60% {
     opacity: 1;
+    margin-top: 20px;
+  }
+  99% {
+    opacity: 0.7;
   }
   100% {
     opacity: 0.6;

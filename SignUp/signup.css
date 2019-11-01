@@ -4,6 +4,22 @@
   margin-bottom: -10px;
 }
 
+.birthday .month {
+  float: none;
+  margin-left: auto;
+}
+
+.birthday .day {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.birthday .year {
+  float: none;
+  margin-right: auto;
+}
+
 .dob-text {
   color: black;
   font-size: 18px;
@@ -46,16 +62,16 @@
 }
 
 .submit-btn {
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 10px;
-  background: #d200cc;
-  border-color: #d200cc;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-  border-radius: 20px;
+  background: #752565;
+  border-color: #752565;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   color: #fff;
 }
