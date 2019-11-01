@@ -2,8 +2,10 @@
 
 .logo {
   font-size: 55px;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: center;
   a {
     color: black;
   }
@@ -12,13 +14,18 @@
   }
 }
 
+.signup-message{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 .gender {
   color: black;
 }
 
-.logo {
-  text-align: center;
-}
 
 .has-account {
   color: black;
