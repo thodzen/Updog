@@ -1,14 +1,3 @@
-.birthday {
-  margin: 10px;
-  padding-top: 10px;
-  margin-bottom: -10px;
-}
-
-.dob-text {
-  color: black;
-  font-size: 18px;
-}
-
 .logo {
   font-size: 55px;
   margin-top: 60px;
@@ -23,19 +12,15 @@
   text-decoration: none;
 }
 
-.gender {
-  color: black;
-}
-
 .logo {
   text-align: center;
 }
 
-.has-account {
+.needs-account {
   color: black;
 }
 
-.has-account a {
+.needs-account a {
   font-weight: bold;
 }
 
@@ -53,4 +38,4 @@
   text-align: center;
   color: #fff;
 }
-/*# sourceMappingURL=signup.css.map */
+/*# sourceMappingURL=login.css.map */

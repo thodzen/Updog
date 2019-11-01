@@ -45,16 +45,16 @@
 .explanation .startlistening {
   margin-top: 60px;
   padding: 10px;
-  background: #ffffff;
+  background: #D200CC;
+  border-color: #D200CC;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
   border-radius: 20px;
-  font-size: 30px;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
-  color: #000000;
+  color: #fff;
 }
 
 .wave_bot {
@@ -63,6 +63,7 @@
   height: 838.42px;
   left: -15px;
   top: 237px;
+  z-index: -5;
   opacity: 0;
   -webkit-animation: fade-bot infinite;
           animation: fade-bot infinite;
@@ -76,6 +77,7 @@
   height: 838.42px;
   left: 0px;
   top: 241.58px;
+  z-index: -4;
   opacity: 0;
   -webkit-animation: fade-mid infinite;
           animation: fade-mid infinite;
@@ -88,6 +90,7 @@
   width: 1920px;
   height: 838.42px;
   top: 258px;
+  z-index: -3;
   opacity: 0;
   -webkit-animation: fade-top infinite;
           animation: fade-top infinite;

@@ -21,7 +21,7 @@
     <!--LOGO-->
     <div class="container">
       <div class="logo">
-        <h1>updog</h1>
+        <a href="/landing/landing.html">updog</a>
       </div>
       <section id="cover">
         <div id="cover-caption">
@@ -31,6 +31,7 @@
                 <div class="info-form">
                   <form action="" class="form-inlin justify-content-center">
                     <!--NAME-->
+                   <!--
                     <div class="form-group">
                       <input
                         type="text"
@@ -38,6 +39,7 @@
                         placeholder="name"
                       />
                     </div>
+                  -->
                     <!--EMAIL-->
                     <div class="form-group">
                       <input
@@ -63,8 +65,10 @@
                       />
                     </div>
 
+                    <h4 class="dob-text">Enter Date of Birth:</h4>
                     <div class="birthday row">
-                      <div class="form-group col-lg-4">
+                      
+                      <div class="form-group col-lg-4 month">
                         <!--MONTH-->
                         <select name="month" id="">
                           <option value="01">Jan</option>
@@ -82,7 +86,7 @@
                         </select>
                       </div>
 
-                      <div class="form-group col-lg-4">
+                      <div class="form-group col-lg-4 day">
                         <!--DAY-->
                         <select name="day" id="">
                           <option value="1">1</option>
@@ -118,7 +122,7 @@
                           <option value="31">31</option>
                         </select>
                       </div>
-                      <div class="form-group col-lg-4">
+                      <div class="form-group col-lg-4 year">
                         <!--YEAR-->
                         <select name="year" id="">
                           <option value="1935">1935</option>
@@ -209,16 +213,21 @@
                         </select>
                       </div>
                     </div> <!--END BIRTHDAY-->
-
+                    <!--
                     <div class="gender">
                             <input type="radio" name="gender" value="M" id="male">Male
                             <input type="radio" name="gender" value="F" id="female">Female
                             <input type="radio" name="gender" value="O" id="other">Other
                           </div>
+                        -->
 
-                    <button type="submit" class="btn btn-success ">
+                    <button type="submit" class="submit-btn">
                       sign up!
                     </button>
+<hr>
+                    <div class="has-account">
+                      <p>Already have an account? <a href="/Login/login.html">Login!</a></p>
+                    </div>
                   </form>
                 </div>
                 <br />

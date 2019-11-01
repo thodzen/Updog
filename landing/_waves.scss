@@ -1,68 +1,71 @@
 .wave_bot {
-    position: absolute;
-    width: 1920px;
-    height: 838.42px;
-    left: -15px;
-    top: 237px;
+  position: absolute;
+  width: 1920px;
+  height: 838.42px;
+  left: -15px;
+  top: 237px;
+  z-index: -5;
 
-    opacity: 0;
-    animation: fade-bot infinite;
-    animation-duration: 3s;
-    //animation-delay: .5s;
-  }
-  .wave_mid {
-    position: absolute;
-    width: 1920px;
-    height: 838.42px;
-    left: 0px;
-    top: 241.58px;
+  opacity: 0;
+  animation: fade-bot infinite;
+  animation-duration: 3s;
+  //animation-delay: .5s;
+}
+.wave_mid {
+  position: absolute;
+  width: 1920px;
+  height: 838.42px;
+  left: 0px;
+  top: 241.58px;
+  z-index: -4;
 
-    opacity: 0;
-    animation: fade-mid infinite;
-    animation-duration: 3s;
-    //animation-delay: .3s;
-  }
-  .wave_top {
-    position: absolute;
-    width: 1920px;
-    height: 838.42px;
-    top: 258px;
+  opacity: 0;
+  animation: fade-mid infinite;
+  animation-duration: 3s;
+  //animation-delay: .3s;
+}
+.wave_top {
+  position: absolute;
+  width: 1920px;
+  height: 838.42px;
+  top: 258px;
+  z-index: -3;
 
-    opacity: 0;
-    animation: fade-top infinite;
-    animation-duration: 3s;
-   // animation-delay: .1s;
+  opacity: 0;
+  animation: fade-top infinite;
+  animation-duration: 3s;
+  // animation-delay: .1s;
+}
+@keyframes fade-top {
+  0% {
+    opacity: 0.6;
   }
-  @keyframes fade-top{
-    0%{
-      opacity: 0.6;
-    }
-    40%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 0.6;
-    }
+  40% {
+    opacity: 1;
   }
-  @keyframes fade-mid{
-    0%{
-      opacity: 0.6;
-    }
-    50%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 0.6;
-    }
+  100% {
+    opacity: 0.6;
   }
-  @keyframes fade-bot{
-    0%{
-      opacity: 0.6;
-    }
-    60%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 0.6;
-    }
+}
+@keyframes fade-mid {
+  0% {
+    opacity: 0.6;
   }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+@keyframes fade-bot {
+  0% {
+    opacity: 0.6;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
