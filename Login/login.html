@@ -14,14 +14,14 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="/static/css/login.css" />
     <title>Updog - Login</title>
   </head>
   <body>
     <!--LOGO-->
     <div class="container">
       <div class="logo">
-        <a href="/landing/landing.html">updog</a>
+        <a href="landing.html">updog</a>
       </div>
       <h4 class="signup-message">Log in using your email</h4>
 
@@ -33,19 +33,21 @@
                 <div class="info-form">
                   <form action="localhost/login" class="form-inlin justify-content-center">
                     <!--NAME-->
-                    <!--
+                    
                     <div class="form-group">
                       <input
                         type="text"
+                        name="name"
                         class="form-control"
                         placeholder="name"
                       />
                     </div>
-                  -->
+                  
                     <!--EMAIL-->
                     <div class="form-group">
                       <input
                         type="email"
+                        name="email"
                         class="form-control"
                         placeholder="email"
                       />
@@ -54,6 +56,7 @@
                     <div class="form-group">
                       <input
                         type="password"
+                        name="password"
                         class="form-control"
                         placeholder="password"
                       />
@@ -64,7 +67,7 @@
                     </button>
                     <hr />
                     <div class="needs-account">
-                      <p>Don't have an account yet? <a href="/SignUp/signup.html">Sign up!</a></p>
+                      <p>Don't have an account yet? <a href="signup.html">Sign up!</a></p>
                     </div>
                   </form>
                 </div>
